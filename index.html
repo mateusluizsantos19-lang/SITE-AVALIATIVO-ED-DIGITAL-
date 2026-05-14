@@ -1,1 +1,63 @@
 
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Moderna | O Guia Completo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">AgroTech</div>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#historia">História</a></li>
+            <li><a href="#galeria">Culturas</a></li>
+            <li><a href="#interativo">Simulador</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-text">
+            <h1>O Futuro da Agricultura</h1>
+            <p>Desde a Revolução Neolítica à Inteligência Artificial no campo.</p>
+        </div>
+    </header>
+
+    <section id="historia" class="content-section">
+        <h2>A Jornada do Cultivo</h2>
+        <div class="text-container">
+            <p>A agricultura começou há cerca de 10.000 anos, marcando o fim do nomadismo. No Crescente Fértil, os seres humanos aprenderam a domesticar cereais como o trigo e a cevada. Este foi o maior salto tecnológico da humanidade, permitindo a criação de cidades e civilizações.</p>
+            <p>Hoje, enfrentamos o desafio de alimentar 8 mil milhões de pessoas. A agricultura de precisão utiliza drones e sensores de humidade para otimizar cada gota de água e cada grama de fertilizante, garantindo a sustentabilidade do planeta.</p>
+        </div>
+    </section>
+
+    <section id="galeria" class="gallery-section">
+        <h2>Culturas e Tecnologias</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=500" alt="Plantação"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=500" alt="Trator"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=500" alt="Estufa"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=500" alt="Drones no campo"></div>
+        </div>
+    </section>
+
+    <section id="interativo" class="interactive-section">
+        <h2>Simulador de Produtividade</h2>
+        <p>Calcula uma estimativa de colheita baseada no tamanho da tua área:</p>
+        <div class="calc-box">
+            <input type="number" id="hectares" placeholder="Área em Hectares">
+            <button onclick="calcularProducao()">Calcular Estimativa</button>
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Projeto Agricultura - Criado para o GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
